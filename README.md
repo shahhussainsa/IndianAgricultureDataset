@@ -31,7 +31,8 @@ Once Yarn is installed, verify the installation by running:
 
 After installing Yarn, create a new React project using the TypeScript template:
 
-### `yarn create react-app indian-agriculture-analytics --template typescript`
+### I creating New Project OR Access the folder usinf cd
+## `yarn create react-app indian-agriculture-analytics --template typescript`
 
 Cd To Your Folder:
 

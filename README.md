@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-# Agriculture Data Processing
+# IndianAgricultureDataset
 
 This repository contains code to process agriculture data from a JSON file (`agriculture_data.json`) to derive aggregated and average statistics per year and per crop.
 
@@ -36,7 +36,7 @@ After installing Yarn, create a new React project using the TypeScript template:
 
 Cd To Your Folder:
 
-### `cd indian-agriculture-analytics`
+### `cd folder/directory [IndianAgricultureDataset]`
 
 ### `Step 3: Install Mantine`
 

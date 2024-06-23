@@ -27,7 +27,7 @@ Once Yarn is installed, verify the installation by running:
 
 ### `yarn --version`
 
-### `Step 2: Create a React Project with TypeScript Template`
+### Step 2: Create a React Project with TypeScript Template
 
 After installing Yarn, create a new React project using the TypeScript template:
 
@@ -38,21 +38,21 @@ Cd To Your Folder:
 
 ### `cd folder/directory [IndianAgricultureDataset]`
 
-### `Step 3: Install Mantine`
+### Step 3: Install Mantine
 
 Install Mantine for creating tables:
 
 ### `yarn add @mantine/core @mantine/hooks`
 
-### `Step 4: Load and Process Data`
+### Step 4: Load and Process Data
 
 Create a file named dataProcessing.ts in the src directory to handle data loading and processing:
 
-### `Step 5: Create Tables`
+### Step 5: Create Tables
 
 Use Mantine to display the tables in App.tsx:
 
-### `Step 6: Finalize the Project`
+### Step 6: Finalize the Project
 
 Ensure everything runs correctly:
 
@@ -61,13 +61,13 @@ Ensure everything runs correctly:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `ScreenShots`
+### ScreenShots
 
-## `Aggregated Data Table`
+## Aggregated Data Table
 
 ![Aggregated Data](screenshot/aggregated_data.png)
 
-## `Average Data Table`
+## Average Data Table
 
 ![Average Data](screenshot/average_data.png)
 

@@ -1,46 +1,74 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Agriculture Data Processing
 
-## Available Scripts
+This repository contains code to process agriculture data from a JSON file (`agriculture_data.json`) to derive aggregated and average statistics per year and per crop.
 
-In the project directory, you can run:
+## Requirements
+
+- Node.js (version Latest)
+- TypeScript (version latest)
+
+## Installation
+
+1. Clone the repository:
+   This project was bootstrapped with [Create React App](https://github.com/shahhussainsa/IndianAgricultureDataset/).
+
+## Install Yarn
+
+Here are the steps to install Yarn and proceed with the project setup:
+
+Option 1: Using npm
+If you have npm installed (which comes with Node.js), you can install Yarn globally using npm:
+
+### `npm install -g yarn`
+
+Once Yarn is installed, verify the installation by running:
+
+### `yarn --version`
+
+### `Step 2: Create a React Project with TypeScript Template`
+
+After installing Yarn, create a new React project using the TypeScript template:
+
+### `yarn create react-app indian-agriculture-analytics --template typescript`
+
+Cd To Your Folder:
+
+### `cd indian-agriculture-analytics`
+
+### `Step 3: Install Mantine`
+
+Install Mantine for creating tables:
+
+### `yarn add @mantine/core @mantine/hooks`
+
+### `Step 4: Load and Process Data`
+
+Create a file named dataProcessing.ts in the src directory to handle data loading and processing:
+
+### `Step 5: Create Tables`
+
+Use Mantine to display the tables in App.tsx:
+
+### `Step 6: Finalize the Project`
+
+Ensure everything runs correctly:
 
 ### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+### `ScreenShots`
+
+## `Aggregated Data Table`
+
+![Aggregated Data](screenshot/aggregated_data.png)
+
+## `Average Data Table`
+
+![Average Data](screenshot/average_data.png)
+
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
